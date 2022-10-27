@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.documento {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button.button {
+    height: 30px;
+    width: 50px
+}
+
+canvas#quadro {
+    outline-color: blue;
+    outline-style: solid;
+}
+
+label {
+    padding-right: 8px;
+}
+
+button#botaoReverter {
+    background-image: url("/img/seta_inversa.png");
+    margin-left: 10px;
+}
+
+button#botaoRetornar {
+    background-image: url("/img/seta.png");
+    margin-right: 10px;
+}
+
+footer { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+}
+
+button.botaoStates {
+    height: 30px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75% 100%;
+}
+
+button.botaoStates:hover {
+    transform: translateY(-2px);
+    transition: 0.5s;
+    cursor: pointer;
+}
